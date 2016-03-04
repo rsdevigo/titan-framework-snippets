@@ -1,9 +1,11 @@
 {
   "name": "titan-framework-snippets",
   "main": "./lib/titan-framework-snippets",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A set of snippets to use in Titan Framework (https://svn.cnpgc.embrapa.br) XMLs",
-  "keywords": [ "titan framework", "snippets xml forms"
+  "keywords": [
+    "titan framework",
+    "snippets xml forms"
   ],
   "activationCommands": {
     "atom-workspace": "titan-framework-snippets:toggle"
@@ -13,7 +15,8 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  },
-  "snippets": ["user-type.cson"]
+  "dependencies": {},
+  "snippets": [
+    "user-type.cson"
+  ]
 }
