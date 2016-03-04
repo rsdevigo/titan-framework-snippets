@@ -1,0 +1,6 @@
+'.text.xml':
+  'titan menu function':
+    'prefix': 'titan.menu.function'
+    'body': """
+    <menu function="$1" />
+    """

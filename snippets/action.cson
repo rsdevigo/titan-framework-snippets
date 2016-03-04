@@ -1,0 +1,12 @@
+'.text.xml':
+  'titan action':
+    'prefix': 'titan.section.action'
+    'body': """
+    <action
+  		name="$1"
+  		label="$2"
+  		default="${3:false}"
+  		description="$4">
+  		$5
+  	</action>
+    """

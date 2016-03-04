@@ -1,0 +1,6 @@
+'.text.xml':
+  'titan field':
+    'prefix': 'titan.field'
+    'body': """
+    <field type="$1" column="$2" label="$3" required="${4:true}"/>
+    """

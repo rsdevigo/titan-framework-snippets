@@ -1,0 +1,12 @@
+'.text.xml':
+  'titan form':
+    'prefix': 'titan.form'
+    'body': """
+    <?xml version="1.0" encoding="UTF-8"?>
+    <form table="$1" primary="$2">
+      <go-to flag="success" action="[default]" />
+      <go-to flag="fail" action="[same]" />
+      <go-to flag="cancel" action="[default]" />
+      $3
+    </form>
+    """

@@ -1,0 +1,10 @@
+'.text.xml':
+  'titan action mapping':
+    'prefix': 'titan.section.config'
+    'body': """
+    <?xml version="1.0" encoding="UTF-8"?>
+    <action-mapping>
+    	<directive name="_TYPE_" value="" />
+      $1
+    </action-mapping>
+    """

@@ -1,0 +1,8 @@
+'.text.xml':
+  'titan group':
+    'prefix': 'titan.group'
+    'body': """
+    <group label="$1">
+      $2
+    </group>
+    """
