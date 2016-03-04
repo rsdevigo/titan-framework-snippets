@@ -1,0 +1,13 @@
+'.text.xml':
+  'titan user type':
+    'prefix': 'usertype'
+    'body': """
+    <user-type
+		label="$1"
+		name="$2"
+		description="$3"
+		type="private"
+		form-modify="modify.xml"
+		profile="home/profile"
+	/>
+    """

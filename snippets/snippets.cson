@@ -1,0 +1,84 @@
+'.text.xml':
+  'titan user type':
+    'prefix': 'usertype'
+    'body': """
+    <user-type
+		label="$1"
+		name="$2"
+		description="$3"
+		type="private"
+		form-modify="modify.xml"
+		profile="home/profile"
+	/>
+    """
+  'titan form':
+    'prefix': 'titan.form'
+    'body': """
+    <?xml version="1.0" encoding="UTF-8"?>
+    <form table="$1" primary="$2">
+      <go-to flag="success" action="[default]" />
+      <go-to flag="fail" action="[same]" />
+      <go-to flag="cancel" action="[default]" />
+      $3
+    </form>
+    """
+  'titan field':
+    'prefix': 'titan.field'
+    'body': """
+    <field type="$1" column="$2" label="$3" required="${4:true}"/>
+    """
+
+  'titan group':
+    'prefix': 'titan.group'
+    'body': """
+    <group label="$1">
+      $2
+    </group>
+    """
+
+  'titan list':
+    'prefix': 'titan.list'
+    'body': """
+    <?xml version="1.0" encoding="UTF-8"?>
+    <search table="$1">
+    	$2
+    </search>
+    <view table="$3" primary="$4" paginate="$5">
+    	$6
+    	<icon action="view" image="view.gif" label="Visualizar Dados do Usuário" default="true" />
+    	<icon action="edit" image="edit.gif" label="Editar Dados do Usuário" />
+    	<icon action="delete" image="delete.gif" label="Apagar Usuário" />
+    </view>
+    """
+  'titan action mapping':
+    'prefix': 'titan.section.config'
+    'body': """
+    <?xml version="1.0" encoding="UTF-8"?>
+    <action-mapping>
+    	<directive name="_TYPE_" value="" />
+      $1
+    </action-mapping>
+    """
+
+  'titan action':
+    'prefix': 'titan.section.action'
+    'body': """
+    <action
+  		name="$1"
+  		label="$2"
+  		default="${3:false}"
+  		description="$4">
+  		$5
+  	</action>
+    """
+
+  'titan menu action':
+    'prefix': 'titan.menu.action'
+    'body': """
+    <menu action="$1" />
+    """
+  'titan menu function':
+    'prefix': 'titan.menu.function'
+    'body': """
+    <menu function="$1" />
+    """
