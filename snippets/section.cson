@@ -1,0 +1,12 @@
+'.text.xml':
+  'titan section on business xml':
+    'prefix': 'titan.section'
+    'body': """
+    <section
+      label="$1 | pt_BR: $2"
+      name="$3"
+      component="$4"
+      default="${5:false}"
+      ${6:father="$7"}
+    />
+    """
