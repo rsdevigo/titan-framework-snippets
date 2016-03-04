@@ -1,7 +1,7 @@
 {
   "name": "titan-framework-snippets",
   "main": "./lib/titan-framework-snippets",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "A set of snippets to use in Titan Framework (https://svn.cnpgc.embrapa.br) XMLs",
   "keywords": [
     "titan framework",
