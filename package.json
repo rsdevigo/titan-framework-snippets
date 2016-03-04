@@ -1,0 +1,18 @@
+{
+  "name": "titan-framework-snippets",
+  "main": "./lib/titan-framework-snippets",
+  "version": "0.0.1",
+  "description": "A set of snippets to use in Titan Framework (https://svn.cnpgc.embrapa.br) XMLs",
+  "keywords": [ "titan framework", "snippets xml forms"
+  ],
+  "activationCommands": {
+    "atom-workspace": "titan-framework-snippets:toggle"
+  },
+  "repository": "https://github.com/rsdevigo/titan-framework-snippets",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}

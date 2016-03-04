@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Toggle titan-framework-snippets'
+      'command': 'titan-framework-snippets:toggle'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'titan-framework-snippets'
+      'submenu': [
+        {
+          'label': 'Toggle'
+          'command': 'titan-framework-snippets:toggle'
+        }
+      ]
+    ]
+  }
+]
