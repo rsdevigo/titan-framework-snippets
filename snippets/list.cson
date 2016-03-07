@@ -8,8 +8,8 @@
     </search>
     <view table="$3" primary="$4" paginate="$5">
     	$6
-    	<icon action="view" image="view.gif" label="Visualizar Dados do Usuário" default="true" />
-    	<icon action="edit" image="edit.gif" label="Editar Dados do Usuário" />
-    	<icon action="delete" image="delete.gif" label="Apagar Usuário" />
+    	<icon action="view" image="view.gif" label="Visualizar Dados $7" default="true" />
+    	<icon action="edit" image="edit.gif" label="Editar Dados $8" />
+    	<icon action="delete" image="delete.gif" label="Apagar $9" />
     </view>
     """
