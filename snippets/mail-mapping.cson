@@ -1,0 +1,9 @@
+'.text.xml':
+  'titan mail mapping':
+    'prefix': 'titan.mail.mapping'
+    'body': """
+	<?xml version="1.0" encoding="UTF-8"?>
+	<mail-mapping>
+		$1
+	</mail-mapping>
+    """
